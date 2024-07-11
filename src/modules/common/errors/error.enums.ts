@@ -4,6 +4,7 @@ export enum ErrorCodeEnums {
     'FORBIDDEN' = 403,
     'NOT_FOUND' = 404,
     'INTERNAL_SERVER_ERROR' = 500,
+    'TEMPORARY_REDIRECT' = 307,
 }
 
 export enum ErrorNameEnums {
@@ -12,4 +13,5 @@ export enum ErrorNameEnums {
     'NOT_FOUND' = 'Not Found Error',
     'FORBIDDEN' = 'Forbidden',
     'INTERNAL_SERVER_ERROR' = 'Internal Server Error',
+    'TEMPORARY_REDIRECT' = 'Redirect',
 }
