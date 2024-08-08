@@ -4,6 +4,6 @@ import BaseDatastore from './datastore/base-datastore';
 export default class ServiceBootrapper {
     async initialize() {
         await new BaseDatastore().initializeDB(); // DB initialize
-        await new AwsS3Provider().initializeS3(); // AWS S3 Client initialize
+        await new AwsS3Provider().initialize(); // AWS S3 Client initialize
     }
 }
